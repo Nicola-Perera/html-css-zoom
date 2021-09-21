@@ -10,9 +10,36 @@ main {
     background-color: black;
     padding: .5rem;
     position: relative;
+    color: white;
     
 }
 
+.name {
+    background-color:;
+}
+
+h3 {
+    font-size: 14px;
+    display: inline-block;
+}
+
+/* utility */
+.partecipant {
+    position: relative;
+    background-image: url(https://i.picsum.photos/id/928/246/146.jpg?hmac=lsoulIXEcE9X5pUXfJqqFFJ_aWZ1Pua26hxm_pYzdh8);
+    width: 220px;
+    height: 140px;
+}
+.name {
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.527);
+    line-height: 20px;
+}
+
+/***********
+Header  
+***********/
 header {
     background-color: #d6d6d6;
     border-top-left-radius: 1rem;
@@ -22,6 +49,9 @@ header {
     font-size: 10px;
 }
 
+/***********
+Main  
+***********/
 a {
     text-decoration: none;
     color: white;
@@ -37,4 +67,28 @@ a {
 
 .interface {
     margin: 2rem 0;
+}
+
+.arrow {
+    width: 5vw;
+    height: 100%;
+}
+
+.facecam {
+    width: 90vw;
+
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name > img {
+    max-width:100%;
+    height:auto;
+}
+
+.facecam {
+    flex-flow: row wrap;
 }
